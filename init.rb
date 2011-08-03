@@ -6,7 +6,7 @@ RAILS_DEFAULT_LOGGER.info 'Starting Example plugin for RedMine'
 
 Dispatcher.to_prepare :fast_user_lock do
   require_dependency 'users_helper'
-  UsersHelper.send(:include, FastUserLock::Patches::UsersHelperPatch)
+  UsersHelper.send(:include, FastUserLock::UsersHelperPatch)
 end
 
 Redmine::Plugin.register :fast_user_lock do
