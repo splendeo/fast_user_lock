@@ -1,6 +1,6 @@
 module FastUserLock
   module Patches
-    module UsersHelpersPatch
+    module UsersHelperPatch
       def self.included(base)
         base.extend(ClassMethods)
         base.send(:include, InstanceMethods)
