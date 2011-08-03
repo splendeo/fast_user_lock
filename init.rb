@@ -13,5 +13,5 @@ Redmine::Plugin.register :fast_user_lock do
   name 'Fast Lock User'
   author 'Francisco de Juan'
   description 'Plugin for Redmine/Chiliproject for allowing lock of users without activating first'
-  version '0.0.1'
+  version '0.1.0'
 end
