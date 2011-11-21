@@ -1,4 +1,3 @@
-# Redmine sample plugin
 require 'redmine'
 require 'dispatcher'
 
