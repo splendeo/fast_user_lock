@@ -1,6 +1,6 @@
 == Fast user lock
 
-This is a sample plugin for Redmine/Chiliproject for allowing lock of users without activating them
+This is a plugin for Redmine/Chiliproject for allowing lock of users without activating them
 
 == Installation
 
